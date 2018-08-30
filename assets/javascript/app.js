@@ -17,7 +17,7 @@ if(radio.value == "correct" && radio.checked) {
     }
   }
 }   
-// This is also not a brest practice.                 
+// This is also not a best practice.                 
         alert("Correct Responses: " + amountCorrect);
         window.location.href="index.html";
       }
