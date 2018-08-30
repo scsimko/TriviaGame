@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <meta http-equiv="refresh" content="60;url=end.html"/>
+    <title>quiz</title>
+</head>
+<br>
+<header>Cleveland Trivia</header> 
+
+<h1>you have 60 seconds!</h1>
+
+<div class="questions">
+<body>
+<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+    <ul><div class="question">Who invented Cleveland?</div></ul>
+    <input id="answer" type="radio" name="group1" value="wrong"> Grover Cleveland<br>
+    <input id="answer" type="radio" name="group1" value="correct"> Moses Cleveland<br>
+    <input id="answer" type="radio" name="group1" value="wrong">César Pelli<hr>
+                
+    <ul><div class="question">Which sausage sandwich is native to Cleveland?</div></ul>
+    <input id="answer" type="radio" name="group2" value="correct">Polish boy'<br>
+    <input id="answer" type="radio" name="group2" value="wrong">French dip<br>
+    <input id="answer" type="radio" name="group2" value="wrong">Boerewors<hr>
+                
+    <ul><div class="question">What is the tallest building Cleveland?</div></ul>
+    <input id="answer" type="radio" name="group3" value="wrong">Public Square<br>
+    <input id="answer" type="radio" name="group3" value="wrong"> Terminal Tower<br>
+    <input id="answer" type="radio" name="group3" value="correct">Key Tower<hr>
+
+    <ul><div class="question">Which celebrity grew up in the West Park neighborhood?</div></ul>
+    <input id="answer" type="radio" name="group3" value="correct">Phil Donahue'<br>
+    <input id="answer" type="radio" name="group3" value="wrong">Drew Carey<br>
+    <input id="answer" type="radio" name="group3" value="wrong">Screamin Jay Hawkin<hr>
+
+                
+    <button class="submit" onclick="return handleClick();" type="submit">Submit</button>
+                
+    </form>
+</div>
+</html>
