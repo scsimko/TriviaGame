@@ -8,7 +8,7 @@
 function handleClick()
       {         
 var amountCorrect = 0;          
-for(var i = 1; i <= 4; i++) {
+for(var i = 1; i <= 6; i++) {
 var radios = document.getElementsByName('group'+i);
 for(var j = 0; j < radios.length; j++) {
 var radio = radios[j];
